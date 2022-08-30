@@ -24,6 +24,59 @@
         </nav>
     </div>
     
+    <div class="home-box custom-box">
+        <h3>Instruction: </h3>
+        <p>Total number of questions: <span class="total-question">10</span></p>
+        <button type="button" class="btn" onclick="startQuiz()"><span></span>Start Quiz</button>
+    </div>
+    <div class="quiz-box custom-box hide">
+        <div class="question-number">
+            
+        </div>
+        <div class="question-text">
+            
+        </div>
+        <div class="option-container">
+            
+        </div>
+        <div class="next-question-btn">
+            <button type="button" class="btn" onclick="next()"><span></span>Next</button>
+        </div>
+        <div class="answers-indicator">
+            
+        </div>
+    </div>
+    <div class="result-box custom-box hide">
+        <h1>Quiz Result</h1>
+        <table>
+            <tr>
+                <td>Total Questions</td>
+                <td><span class="total-question"></span></td>
+            </tr>
+            <tr>
+                <td>Attempt</td>
+                <td><span class="total-attempt"></span></td>
+            </tr>
+            <tr>
+                <td>Correct</td>
+                <td><span class="total-correct"></span></td>
+            </tr>
+            <tr>
+                <td>Wrong</td>
+                <td><span class="total-wrong"></span></td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td><span class="percentage"></span></td>
+            </tr>
+            <tr>
+                <td>Your Total Score</td>
+                <td><span class="total-score"></span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn" onclick="tryAgainQuiz()"><span></span>Try Again</button>
+        <button type="button" class="btn" onclick="goToHome()"><span></span>Home</button>
+    </div>
 
           <!-- Footer for Social Meadia Links-->
     <div>
@@ -44,5 +97,7 @@
             <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
         </footer>
     </div>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/quiz.js"></script>
 </body>
 </html>
