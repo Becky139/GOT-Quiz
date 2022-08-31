@@ -56,7 +56,6 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    position: fixed;
   }
 
 .social-networks {
@@ -77,6 +76,40 @@ footer {
 .social-networks p {
     font-size: 2em;
     text-align: center;
+}
+
+/*Intro Page*/
+
+.intro {
+    text-align: center;
+    line-height: 2em;
+    padding: 40px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.banner {
+    float: left;
+    padding: 40px;
+}
+
+.banner-throne {
+    float: right;
+    padding: 40px;
+}
+
+.stark {
+    display: block;
+    padding-bottom: 40px;
+}
+
+.lannister {
+    display: block;
+    padding-bottom: 40px;
 }
 
 /*Quiz Box */
@@ -337,3 +370,72 @@ footer {
   .hide {
       display: none;
   }
+
+  /*Sign Up Page*/
+
+  .form {
+	width: 50%;
+	padding: 30px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background: url(../images/got-1.jpg);
+	text-align: center;
+}
+
+legend {
+	margin-top: 20px;
+	text-decoration: underline;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: large;
+}
+
+input[type=submit] {
+	margin: 20px;
+	margin-left: 1rem;
+	padding: 0.75rem;
+	background-color: #a06614;
+	color: white;
+	border: 1px solid #180A0A;
+	border-radius: 5px;
+}
+
+input[type=reset] {
+	margin-top: 20px;
+	margin-left: 0.75rem;
+	padding: 0.75rem;
+	background-color: white;
+	color: #362222;
+	border: 1px solid #362222;
+	border-radius: 5px;
+}
+
+input[type=text],
+input[type=email] {
+	height: 40px;
+	width: 70%;
+	padding-left: 10px;
+	line-height: 2em;
+	margin: 0 auto;
+}
+
+.block-label {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: #FFFF;
+	font-weight: bold;
+	font-size: large;
+}
+
+.feedback {
+	padding: 10px;
+	line-height: 2em;
+	margin: auto;
+}
+
+.button {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
