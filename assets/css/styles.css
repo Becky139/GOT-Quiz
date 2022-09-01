@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #9fa2a0;
+	background: url(../images/background.jpg);
 	color: rgb(17, 16, 16);
 }
 
@@ -47,10 +47,8 @@ body {
 footer {
     background-color: black;
     color: white;
-    left: 0;
-    bottom: 0;
-    height: 80px;
-    width: 100vw;
+    padding-bottom: 0px;
+    width: 100%;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -112,6 +110,15 @@ h2 {
     padding-bottom: 40px;
 }
 
+/*Quiz Page*/
+
+.dragon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 /*Quiz Box */
 
 .custom-box {
@@ -120,7 +127,6 @@ h2 {
     margin:40px auto;
     padding: 30px;
     border-radius: 10px;
-    position: relative;
     animation: fadeInRight 1s ease;
 }
 @keyframes fadeInRight {
@@ -378,7 +384,8 @@ h2 {
 	padding: 30px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background: url(../images/got-1.jpg);
+	background: url(../images/dragons.jpg);
+    background-size: cover;
 	text-align: center;
 }
 
