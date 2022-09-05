@@ -385,49 +385,38 @@ h2 {
 
   /*Sign Up Page*/
 
+  .sign-up {
+    text-align: center;
+    line-height: 2em;
+    padding: 20px;
+  }
+
   .form {
-	width: 50%;
-	padding: 30px;
+	width: 40%;
+    height: auto;
+	padding: 40px 20px 40px 20px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background: url(../images/dragons.jpg);
+	background: url(../images/throne.jpg);
     background-size: cover;
 	text-align: center;
 }
 
-legend {
-	margin-top: 20px;
-	text-decoration: underline;
-	color: #FFFFFF;
-	font-weight: bold;
-	font-size: large;
-}
-
 input[type=submit] {
-	margin: 20px;
-	margin-left: 1rem;
+	margin: 20px auto;
 	padding: 0.75rem;
 	background-color: #a06614;
 	color: white;
 	border: 1px solid #180A0A;
 	border-radius: 5px;
-}
-
-input[type=reset] {
-	margin-top: 20px;
-	margin-left: 0.75rem;
-	padding: 0.75rem;
-	background-color: white;
-	color: #362222;
-	border: 1px solid #362222;
-	border-radius: 5px;
+    text-align: right;
 }
 
 input[type=text],
 input[type=email] {
 	height: 40px;
 	width: 70%;
-	padding-left: 10px;
+    padding-left: 10px;
 	line-height: 2em;
 	margin: 0 auto;
 }
@@ -441,14 +430,35 @@ input[type=email] {
 	font-size: large;
 }
 
-.feedback {
-	padding: 10px;
-	line-height: 2em;
-	margin: auto;
+.button {
+	display: block;
+    margin: auto;
+	text-align: right;
+	cursor: pointer;
+    padding: 20px;
 }
 
-.button {
-	display: inline-block;
-	text-align: center;
-	cursor: pointer;
+ /*Sign Up Dump Page*/
+
+ .text-dump {
+    text-align: center;
+    line-height: 2em;
+    padding: 20px;
+ }
+
+ .ice {
+    width: 30%;
+    height: 254px;
+}
+
+.fire {
+    width: 30%;
+    height: 254px;
+    padding-top: 20px;
+}
+
+.fire-ice {
+    display: block;
+    text-align: center;
+    margin: auto;
 }
