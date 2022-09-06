@@ -1,108 +1,235 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# GOT Quiz
 
-Welcome Becky139,
+![mockup images]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View The Live Project Here]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table Of Contents
+1. [Introduction](#Introduction)
+2. [UX](#UX)
+    1. [Ideal User Demographic](#Ideal-User-Demographic)
+    2. [User Stories](#User-Stories)
+    3. [Development Planes](#Development-Planes)
+    4. [Design](#Design)
+3. [Features](#Features)
+    1. [Design Features](#Design-Features)
+    2. [Existing Features](#Existing-Features)
+    3. [Features to Implement in the future](#Features-to-Implement-in-the-future)
+4. [Issues and Bugs](#Issues-and-Bugs)
+5. [Technologies Used](#Technologies-Used)
+    1. [Main Languages Used](#Main-Languages-Used)
+    2. [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+6. [Testing](#Testing)
+    1. [Testing.md](TESTING.md)
+7. [Deployment](#Deploment)
+    1. [Deploying on GitHub Pages](#Deploying-on-GitHub-Pages)
+8. [Credits](#Credits)
+    1. [Content](#Content)
+    2. [Media](#Media)
+    3. [Code](#Code)
+9. [Acknowledgements](#Acknowledgements)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+***
 
-`python3 -m http.server`
+## Introduction
 
-A blue button should appear to click: _Make Public_,
+This website is a Game Of Thrones quiz 
 
-Another blue button should appear to click: _Open Browser_.
+This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The main requirements of this project are to build a responsive and interactive front-end site using all the technologies learned so far, namely HTML5, CSS3 and JavaScript.
 
-A blue button should appear to click: _Make Public_,
+## UX
+### Ideal User Demographic
+The ideal user for this website is:
+* Current user
+* New user
+* Historians 
 
-Another blue button should appear to click: _Open Browser_.
+### User-Stories
+#### Current User Goals
+1. As a current user, I want to easily navigate through the site and access the information I require with ease.
+2. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
+3. As a current user, I would like to see new content added that works with the current format.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### New User Goals
+1. As a new user, I want to easily navigate the entire site intuitively. 
+2. As a new user, I want the information I seek to be easily accessible and relevant.
+3. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
+4. As a new user, I want to get access to factually accurate informatiom about WW2.
 
-To log into the Heroku toolbelt CLI:
+### Development-Planes
+To create a comprehensive website that explains some of the most amazing stories of WW2 giving the user a desire to find out more about these events and maybe even find out some new ones as well.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+#### Strategy
+Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
+- **Roles:**
+    - Current users
+    - New users
+    - Historians
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- **Demographic:**
+    - All ages
+    - Worldwide
 
-------
 
-## Release History
+#### Scope
+The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
+- Content Requirements:
+    - The user will be looking for:
+        - Accuate information and facts
+        - Images of the events
+        - Contact Form
+- Functionality Requirements:
+    - The user will be able to:
+        - Be able to easily navigate the site to find the information they require.
+        - Be able to contact the site to report possible issues and also give suggestions.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+#### Structure
+The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<details>
+<summary>Site Map</summary>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![Site Map](assets/readme-files/site-map.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+</details>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Skeleton
+Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<details>
+<summary>Balsamiq Wireframes</summary>
+    
+![Site Wireframes](assets/readme-files/wireframe-home.png)
+![Site Wireframes](assets/readme-files/wireframe-d-day.png)
+![Site Wireframes](assets/readme-files/wireframe-op-Mincemeat.png)
+![Site Wireframes](assets/readme-files/wireframe-enigma.png)
+![Site Wireframes](assets/readme-files/wireframe-contact-us.png)
+</details>   
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Back to top](#Stories-of-WW2)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Design Features
+Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+- The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
+- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
+- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+- The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
+- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
+- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
+- The **Contact Form** is to provide a way for users to contact the develper with feedback or with ideas for more stories to be added to the site. The form can not be submitted without at boxes being filled out.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Existing Features
+- **Header** - Appearing on almost every page for brand recognition.
+- **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable system on larger screens.
+- **Hamburger Menu** - Appearing on almost every page for a consistently easy and intuitive navigable system on smaller screens.
+- **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms.
+- **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
+- **[D Day Page](d-day.html)** - Provides an overlook at operation overlord known better as d day this was massive turning point in the war as the allies opened up this second front in the west help to put pressure on the Germans.
+- **[Operation Mincemeat](op-mincemeat.html)** - Provides information about this sercet operation that was used by the allies to make the Germans move troops to a differant place to allow the invasion of silicy to be a succuses.
+- **[Enigma Code](enigma-code.html)** - This looks into the story of how we broke the German enigma code this allowed us to avoid German attacks and take down the U-Boat that was destroying the allies in the Alantic.
+- **[Contact Us Page](contact-us.html)** - Provides a form for users to contact us and either leave feedback or point at more stories we can add to the page in the future.  
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Features to Implement in the future
+- **Helpful Links Page**
+     - **Feature** - Create more pages with other stories that had big impacts on the war or stories that show the real heros of this horific conflict.
+     - **Reason for not featuring in this release** - Not enough time to find these out before the submission date also I may not be aware of some of these events.
 
-------
+[Back to top](#Stories-of-WW2)
 
-## FAQ about the uptime script
+## Issues and Bugs
+The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
-**Why have you added this script?**
+**Navigation Bar/Hamburger Menu Responsiveness Bug** - A bug was detected while introducing responsiveness to the navigation bar and hamburger menu. At 1200px exactly, both the navigation bar and hamburger menus vanished. It was found that this was caused by setting the hamburger menu to be hidden at 1200px and up, and the navigation bar to be hidden at 1200px and down. The issue was rectified simply by changing the hamburger menu to be hidden from 1201px and up instead.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+**Navigation Bar Text Color Bug** - A bug was detected when I added the hamburger menu the main text color was not showing and the main navigation bar. The fix was to add text color to the class nav-bar a so it applied once this was done the main text color appeared as its correct white color.
 
-**How will this affect me?**
+**Contact Us Page Footer Bug** - A bug was detected on the contact us page where the footer was not diplaying its social network icons. The fix was to add the missing font awesome link at the bottem with this missing the icons could not be displayed, once added and saved the icons appeared correctly.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+**Feedback Box Lack of Responsiveness Bug** - A bug was detected with the feedback box not shrinking for smaller screens the fix was to add some css code for the text area to make the box smaller on mobile and tablet screens.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+[Back to top](#Stories-of-WW2)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Technologies Used
 
-**So….?**
+### Main Lanuages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Frameworks, Libraries & Programs Used
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts into the style.css file. These fonts were used throughout the project.
+- [Favicon](https://www.favicon.cc/ "Link to Favicon Generator")
+     - Favicon was used to add an icon to the website tab. These were used throughout the project.
+- [wikipedia](https://wikipedia.com/)
+     - Wikipedia was used to get alot of the facts and pictures used thoughout the project.
+- [History Page](https://history.com/)
+     - The History page was used to gather facts for the stories used thoughout the projct.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [GitPod](https://gitpod.io/ "Link to GitPod homepage")
+     - GitPod was used for writing code, commiting, and then pushing to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
+     - Balsamiq was used to create the wireframes during the design phase of the project.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[Back to top](#Stories-of-WW2)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Testing
 
-**Anything more?**
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
----
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](add link here "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Main".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "Pages" section to retrieve the deployed link.
 
-Happy coding!
+## Credits
+
+### Content
+- Some of the text used in variose pages were borrowed and adapted from various sites, Listed below.
+     - [Wkipedia](https://wikipedia.com/)
+     - [History](https://history.com/)
+     - [IWM](https://https://www.iwm.org.uk/)
+     - [Favicon](https://www.favicon.cc/)
+     
+### Media
+- Almost all the images came from [Wikipedia](https://wikipedia.com/) but also got some from [IWM](https://https://www.iwm.org.uk/) and [Google Pictures](https://photos.google.com/)
+- All videos were sourced from various channels on [YouTube](https://youtube.com/ "Link to YouTube Home Page")
+
+### Code
+The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [MDN Docs](https://developer.mozilla.org/ "Link to MDN Web Docs")
+- [DevDocs API Documentation](https://devdocs.io/ "Link to DevDocs page")
+
+[Back to top](#Stories-of-WW2)
+
+## Acknowledgements
+
+- I would like to thank my family for their valued opinions and critic during the process of design and development.
+- I would like to thank my tutor Seun, for their invaluable help and guidance throughout the process.
+- Lastly, I would like to extend my deepest gratitude to the amazing people in Slack who helped me rigorously test every aspect of my site.
+
+[Back to top](#Stories-of-WW2)
+
+***
