@@ -438,6 +438,12 @@ input[type=email] {
     padding: 20px;
 }
 
+.foot {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
  /*Sign Up Dump Page*/
 
  .text-dump {
@@ -448,12 +454,12 @@ input[type=email] {
 
  .ice {
     width: 30%;
-    height: 254px;
+    height: auto;
 }
 
 .fire {
     width: 30%;
-    height: 254px;
+    height: auto;
     padding-top: 20px;
 }
 

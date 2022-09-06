@@ -48,5 +48,55 @@ const quiz = [
         q:'Ser Brienne was from ?',
         options: ['Kings Landing', 'London', 'the North', 'tarth'],
         answer:3
-    }
+    },
+    {
+        q:'How many kingdoms are there in Westeros continent?',
+        options: ['7', '6', '4', '3'],
+        answer:0
+    },
+    {
+        q:'Who is Elia Martell for Daenerys?',
+        options: ['Sisters-in-law', 'Cousines', 'Real Sisters', 'auntie and niece'],
+        answer:0
+    },
+    {
+        q:'Who was nicknamed the Lightning Lord?',
+        options: ['Mycah', 'Beric Dondarrion', 'Eddard Stark', 'Sandor Clegane'],
+        answer:1
+    },
+    {
+        q:'Who leads the troops attacking the kings landing during the battle of Blackwater?',
+        options: ['Stannis Baratheon', 'Tywin Lannister', 'Ser Loras Tyrell', 'Davos Seaworth'],
+        answer:0
+    },
+    {
+        q:'Who killed Ygritte?',
+        options: ['Jon Snow', 'Samwell Tarly', 'Ghost', 'Ollie'],
+        answer:3
+    },
+    {
+        q:'What is Arya Starks sword known as?',
+        options: ['Slash', 'sword', 'needle', 'sting'],
+        answer:2
+    },
+    {
+        q:'What Unsullied have to do at the end of training in order to prove he has no mercy?',
+        options: ['To kill a newborn slave child','To kill the mother who raised him','To rape a virgin', 'kill the masters'],
+        answer:0
+    },
+    {
+        q:'What is the last name of Bastards in Dorne?',
+        options: ['snow', 'soil','sea','sand'],
+        answer:3
+    },
+    {
+        q:'What is the name of Jon Snow\'s mother?',
+        options: ['Lyanna','Catelyn','Cersei','Gilly'],
+        answer:0
+    },
+    {
+        q:'Who is Maester at Winterfell at the beginning of Game of Thrones?',
+        options: ['Maester Cressen','Maester Aemon','Maester Luwin','Archmaester Ebrose'],
+        answer:2
+    },
 ]

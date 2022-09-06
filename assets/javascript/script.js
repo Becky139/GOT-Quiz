@@ -188,6 +188,7 @@ function setAvailableQuestions(){
     for(let i=0; i<totalQuestion; i++) {
         availableQuestions.push(quiz[i]);
     }
+
 }
 
 
