@@ -34,7 +34,7 @@
 
 ## Introduction
 
-This website is a Game Of Thrones quiz 
+This website is a quiz created to test your knowledge of the hit show Game Of Thrones that ran for 8 seasons from April 2001 until May 2019, set in the fictional kingdom of westeros. 
 
 This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute.
 
@@ -44,30 +44,29 @@ The main requirements of this project are to build a responsive and interactive 
 ### Ideal User Demographic
 The ideal user for this website is:
 * Current user
-* New user
-* Historians 
+* Gaming user
 
 ### User-Stories
 #### Current User Goals
-1. As a current user, I want to easily navigate through the site and access the information I require with ease.
+1. As a current user, I want to easily navigate through the site and access quiz ease.
 2. As a current user, I want to easily navigate to content I have previously viewed within a small number of steps.
-3. As a current user, I would like to see new content added that works with the current format.
+3. As a current user, I would like to see new content added to the quiz and questions updated that works with the current format.
 
 #### New User Goals
 1. As a new user, I want to easily navigate the entire site intuitively. 
 2. As a new user, I want the information I seek to be easily accessible and relevant.
 3. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
-4. As a new user, I want to get access to factually accurate informatiom about WW2.
+4. As a new user, I want to get access to a site that has good accuate questions with correct answers.
 
 ### Development-Planes
-To create a comprehensive website that explains some of the most amazing stories of WW2 giving the user a desire to find out more about these events and maybe even find out some new ones as well.
+
 
 #### Strategy
 Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
 - **Roles:**
     - Current users
     - New users
-    - Historians
+    - Gaming users
 
 - **Demographic:**
     - All ages
