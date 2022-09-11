@@ -6,7 +6,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #f6d6ad;
+	background-color: #f4dfc3;
 	color: rgb(17, 16, 16);
 }
 
@@ -86,7 +86,14 @@ footer {
 .intro {
     text-align: center;
     line-height: 2em;
-    padding: 40px;
+    padding: 50px;
+}
+
+.quiz {
+    text-align: center;
+    line-height: 2em;
+    padding: 100px 40px 40px 40px;
+
 }
 
 h2 {
@@ -97,23 +104,26 @@ h2 {
 
 .banner {
     float: left;
+    display: inline-flex;
     padding: 40px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
 .banner-throne {
     float: right;
+    display: inline-flex;
     padding: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: stretch;
+    justify-content: space-evenly;
 }
 
-.stark {
-    display: block;
-    padding-bottom: 40px;
-}
-
-.lannister {
-    display: block;
-    padding-bottom: 40px;
-}
 
 /*Quiz Page*/
 
@@ -467,4 +477,15 @@ input[type=email] {
     display: block;
     text-align: center;
     margin: auto;
+}
+
+/* Media Queries */
+/*for screens smaller than 1200px*/
+
+/* Home Page */
+
+@media screen and (max-width: 1200px) {
+
+
+
 }
