@@ -77,12 +77,12 @@ Strategy incorporates user needs as well as product objectives. This website wil
 The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
 - Content Requirements:
     - The user will be looking for:
-        - Accuate information and facts
-        - Images of the events
-        - Contact Form
+        - Accuate questions with correct answers
+        - Images from the series
+        - Regular quiz updates 
 - Functionality Requirements:
     - The user will be able to:
-        - Be able to easily navigate the site to find the information they require.
+        - Be able to easily navigate the site to find the quiz or information they require.
         - Be able to contact the site to report possible issues and also give suggestions.
 
 #### Structure
@@ -92,7 +92,7 @@ The information above was then organized in a hierarchical tree structure, a sit
 <details>
 <summary>Site Map</summary>
 
-![Site Map](assets/readme-files/site-map.png)
+![Site Map](assets/readme-files/)
 
 </details>
 
@@ -104,34 +104,29 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 <details>
 <summary>Balsamiq Wireframes</summary>
     
-![Site Wireframes](assets/readme-files/wireframe-home.png)
-![Site Wireframes](assets/readme-files/wireframe-d-day.png)
-![Site Wireframes](assets/readme-files/wireframe-op-Mincemeat.png)
-![Site Wireframes](assets/readme-files/wireframe-enigma.png)
-![Site Wireframes](assets/readme-files/wireframe-contact-us.png)
+![Site Wireframes](assets/readme-files/wireframe)
+![Site Wireframes](assets/readme-files/wireframe)
+![Site Wireframes](assets/readme-files/wireframe)
 </details>   
 
 
-[Back to top](#Stories-of-WW2)
+[Back to top](#GOT-Quiz)
 
 ## Features
 
 ### Design Features
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
+- The **Navigation Bar** is positioned directly below the header.
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens in a new tab to relavent social media page. Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+- The **Header** is across the top of the page. It is not static as this would cover too much of the screen.
 - The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
-- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
-- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens a zombie related link on each respective Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
-- The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
-- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
-- The **Navigation Bar** collapses into a **Hamburger Menu** that, when clicked or tapped, opens a sidebar which shows the navigation options.
 - The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
-- The **Contact Form** is to provide a way for users to contact the develper with feedback or with ideas for more stories to be added to the site. The form can not be submitted without at boxes being filled out.
+- The **Sign Up Form** is to provide a way for users to contact the develper with feedback or with ideas for more stories to be added to the site. The form can not be submitted without at boxes being filled out.
 
 ### Existing Features
 - **Header** - Appearing on almost every page for brand recognition.
-- **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable system on larger screens.
-- **Hamburger Menu** - Appearing on almost every page for a consistently easy and intuitive navigable system on smaller screens.
+- **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable.
 - **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms.
 - **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
 - **[D Day Page](d-day.html)** - Provides an overlook at operation overlord known better as d day this was massive turning point in the war as the allies opened up this second front in the west help to put pressure on the Germans.
