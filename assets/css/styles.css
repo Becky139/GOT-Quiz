@@ -65,7 +65,7 @@ footer {
 }
 
 .social-networks i {
-	font-size: 2em;
+	font-size: 1em;
 	margin: 20px 60px;
 	color: white;
     background-color: #000000;
@@ -86,12 +86,14 @@ footer {
 .intro {
     text-align: center;
     line-height: 2em;
+    display: block;
     padding: 50px;
 }
 
 .quiz {
     text-align: center;
     line-height: 2em;
+    display: block;
     padding: 100px 40px 40px 40px;
 
 }
@@ -105,7 +107,7 @@ h2 {
 .banner {
     float: left;
     display: inline-flex;
-    padding: 40px;
+    padding: 40px 40px 100px 40px;
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-content: flex-end;
@@ -486,6 +488,45 @@ input[type=email] {
 
 @media screen and (max-width: 1200px) {
 
+.banner {
+    clear: both;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+}
 
+.banner-throne {
+    clear: both;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: auto;
+}
 
+.intro {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.quiz {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
 }
