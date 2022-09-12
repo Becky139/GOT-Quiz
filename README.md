@@ -143,6 +143,8 @@ Each page within the site has a consistent and responsive navigation system. The
 
 ## Issues and Bugs
 
+- **Sign Up Form Background** - Issue with the image not staying central on small screens.
+- **Header and Footer Responsivness** - A bug was detected on smaller screens that the header and footer are not filly the width of the screen.
 
 
 [Back to top](#GOT-Quiz)
@@ -157,12 +159,8 @@ Each page within the site has a consistent and responsive navigation system. The
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
     - Google fonts was used to import the fonts into the style.css file. These fonts were used throughout the project.
-- [Favicon](https://www.favicon.cc/ "Link to Favicon Generator")
+- [Favicon](https://icons8.com/ "Link to Favicon Generator")
      - Favicon was used to add an icon to the website tab. These were used throughout the project.
-- [wikipedia](https://wikipedia.com/)
-     - Wikipedia was used to get alot of the facts and pictures used thoughout the project.
-- [History Page](https://history.com/)
-     - The History page was used to gather facts for the stories used thoughout the projct.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
      - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [GitPod](https://gitpod.io/ "Link to GitPod homepage")
@@ -195,13 +193,10 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ### Content
 - Some of the text used in variose pages were borrowed and adapted from various sites, Listed below.
      - [Wkipedia](https://wikipedia.com/)
-     - [History](https://history.com/)
-     - [IWM](https://https://www.iwm.org.uk/)
-     - [Favicon](https://www.favicon.cc/)
+     - [Favicon](https://icons8.com/)
      
 ### Media
 - Almost all the images came from [Wikipedia](https://wikipedia.com/) but also got some from [IWM](https://https://www.iwm.org.uk/) and [Google Pictures](https://photos.google.com/)
-- All videos were sourced from various channels on [YouTube](https://youtube.com/ "Link to YouTube Home Page")
 
 ### Code
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
@@ -210,14 +205,12 @@ The developer consulted multiple sites in order to better understand the code th
 - [MDN Docs](https://developer.mozilla.org/ "Link to MDN Web Docs")
 - [DevDocs API Documentation](https://devdocs.io/ "Link to DevDocs page")
 
-[Back to top](#Stories-of-WW2)
+[Back to top](#GOT-Quiz)
 
 ## Acknowledgements
 
-- I would like to thank my family for their valued opinions and critic during the process of design and development.
-- I would like to thank my tutor Seun, for their invaluable help and guidance throughout the process.
-- Lastly, I would like to extend my deepest gratitude to the amazing people in Slack who helped me rigorously test every aspect of my site.
 
-[Back to top](#Stories-of-WW2)
+
+[Back to top](#GOT-Quiz)
 
 ***
