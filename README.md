@@ -104,9 +104,9 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 <details>
 <summary>Balsamiq Wireframes</summary>
     
-![Site Wireframes](assets/readme-files/wireframe)
-![Site Wireframes](assets/readme-files/wireframe)
-![Site Wireframes](assets/readme-files/wireframe)
+![Site Wireframes](assets/readme-files/wireframe/HomePage.png)
+![Site Wireframes](assets/readme-files/wireframe/Quiz.png)
+![Site Wireframes](assets/readme-files/wireframe/Sign-Up.png)
 </details>   
 
 
@@ -120,45 +120,39 @@ Each page within the site has a consistent and responsive navigation system. The
 - The **Navigation Bar** is positioned directly below the header.
 - The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens in a new tab to relavent social media page. Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page. It is not static as this would cover too much of the screen.
-- The **Navigation Bar** is positioned directly below the header. The navigation bar is only used for screen sizes larger than 1200px. It is then replaced by a hamburger menu.
+- The **Navigation Bar** is positioned directly below the header.
 - The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
-- The **Sign Up Form** is to provide a way for users to contact the develper with feedback or with ideas for more stories to be added to the site. The form can not be submitted without at boxes being filled out.
+- The **Sign Up Form** is to provide a way for users to contact the develper and they can be informed of quiz updates.
 
 ### Existing Features
 - **Header** - Appearing on almost every page for brand recognition.
 - **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable.
 - **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms.
 - **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
-- **[D Day Page](d-day.html)** - Provides an overlook at operation overlord known better as d day this was massive turning point in the war as the allies opened up this second front in the west help to put pressure on the Germans.
-- **[Operation Mincemeat](op-mincemeat.html)** - Provides information about this sercet operation that was used by the allies to make the Germans move troops to a differant place to allow the invasion of silicy to be a succuses.
-- **[Enigma Code](enigma-code.html)** - This looks into the story of how we broke the German enigma code this allowed us to avoid German attacks and take down the U-Boat that was destroying the allies in the Alantic.
-- **[Contact Us Page](contact-us.html)** - Provides a form for users to contact us and either leave feedback or point at more stories we can add to the page in the future.  
+- **[Intro Page](index.html)** - Provides a summary of the TV series game of Thrones and a little quiz introdution.
+- **[Quiz Page](quiz.html)** - This page has the Quiz game on it and provides the user with a score at the end.
+- **[Sign Up Page](sign-up.html)** - This page provide the user with a place to sign up to get information on when the quiz is updated.
+- **[Sin Up Dump Page](sign-up-dump.html)** - This page is were the user is taken after submiting the form in the sign up page.   
 
 ### Features to Implement in the future
 - **Helpful Links Page**
-     - **Feature** - Create more pages with other stories that had big impacts on the war or stories that show the real heros of this horific conflict.
+     - **Feature** - 
      - **Reason for not featuring in this release** - Not enough time to find these out before the submission date also I may not be aware of some of these events.
 
-[Back to top](#Stories-of-WW2)
+[Back to top](#GOT-Quiz)
 
 ## Issues and Bugs
-The developer ran into several issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
-**Navigation Bar/Hamburger Menu Responsiveness Bug** - A bug was detected while introducing responsiveness to the navigation bar and hamburger menu. At 1200px exactly, both the navigation bar and hamburger menus vanished. It was found that this was caused by setting the hamburger menu to be hidden at 1200px and up, and the navigation bar to be hidden at 1200px and down. The issue was rectified simply by changing the hamburger menu to be hidden from 1201px and up instead.
 
-**Navigation Bar Text Color Bug** - A bug was detected when I added the hamburger menu the main text color was not showing and the main navigation bar. The fix was to add text color to the class nav-bar a so it applied once this was done the main text color appeared as its correct white color.
 
-**Contact Us Page Footer Bug** - A bug was detected on the contact us page where the footer was not diplaying its social network icons. The fix was to add the missing font awesome link at the bottem with this missing the icons could not be displayed, once added and saved the icons appeared correctly.
-
-**Feedback Box Lack of Responsiveness Bug** - A bug was detected with the feedback box not shrinking for smaller screens the fix was to add some css code for the text area to make the box smaller on mobile and tablet screens.
-
-[Back to top](#Stories-of-WW2)
+[Back to top](#GOT-Quiz)
 
 ## Technologies Used
 
 ### Main Lanuages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
 
 ### Frameworks, Libraries & Programs Used
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
@@ -179,7 +173,7 @@ The developer ran into several issues during the development of the website, wit
      - Balsamiq was used to create the wireframes during the design phase of the project.
 
 
-[Back to top](#Stories-of-WW2)
+[Back to top](#GOT-Quiz)
 
 ## Testing
 
