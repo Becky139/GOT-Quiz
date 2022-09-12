@@ -56,7 +56,7 @@ const quiz = [
     },
     {
         q:'Who is Elia Martell for Daenerys?',
-        options: ['Sisters-in-law', 'Cousines', 'Real Sisters', 'auntie and niece'],
+        options: ['Sisters-in-law', 'Cousins', 'Real Sisters', 'auntie and niece'],
         answer:0
     },
     {
@@ -80,7 +80,7 @@ const quiz = [
         answer:2
     },
     {
-        q:'What Unsullied have to do at the end of training in order to prove he has no mercy?',
+        q:'What do the Unsullied have to do at the end of training in order to prove he has no mercy?',
         options: ['To kill a newborn slave child','To kill the mother who raised him','To rape a virgin', 'kill the masters'],
         answer:0
     },
