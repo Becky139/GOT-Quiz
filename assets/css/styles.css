@@ -46,13 +46,14 @@ body {
 .active {
 	border-bottom: 5px solid white;
 }
+
 footer {
     background: url(../images/header.jpg);
     color: white;
     font-weight: bold;
     padding-bottom: 0px;
     width: 100%;
-    font-size: 30px;
+    font-size: 2em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,11 +65,14 @@ footer {
 	text-align: center;
 }
 
-.social-networks i {
+.social-networks i a {
 	font-size: 1em;
 	margin: 20px 60px;
 	color: white;
-    background-color: #000000;
+}
+
+a:visited {
+    color:white;
 }
 
 .social-networks>li {
@@ -113,6 +117,26 @@ h2 {
     align-content: flex-end;
     align-items: stretch;
     justify-content: space-evenly;
+}
+
+.stark {
+    width: 60%;
+    height: auto;
+}
+
+.baratheon {
+    width: 60%;
+    height: auto;
+}
+
+.lannister {
+    width: 60%;
+    height: auto;
+}
+
+.targaryen {
+    width: 60%;
+    height: auto;
 }
 
 .banner-throne {
@@ -493,6 +517,15 @@ input[type=email] {
 
 @media screen and (max-width: 1200px) {
 
+.nav-bar {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/* Home Page */
+
 .banner {
     clear: both;
     display: flex;
@@ -527,11 +560,44 @@ input[type=email] {
     justify-content: center;
 }
 
+.stark {
+    width: 100%;
+    height: auto;
+}
+
+.baratheon {
+    width: 100%;
+    height: auto;
+}
+
+.lannister {
+    width: 100%;
+    height: auto;
+}
+
+.targaryen {
+    width: 100%;
+    height: auto;
+}
+
+/*Quiz Page*/
+
 .quiz {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+footer {
+    font-size: 1.5em;
+}
+
+.social-networks>li {
+	display: block;
 }
 }
