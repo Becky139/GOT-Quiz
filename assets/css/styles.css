@@ -53,6 +53,7 @@ footer {
     font-weight: bold;
     padding-bottom: 0px;
     width: 100%;
+    padding: 20px;
     font-size: 2em;
     display: flex;
     justify-content: center;
@@ -98,8 +99,12 @@ a:visited {
     text-align: center;
     line-height: 2em;
     display: block;
-    padding: 100px 40px 40px 40px;
+    padding: 40px;
 
+}
+
+.quiz h2 {
+    padding-top: 150px;
 }
 
 h2 {
@@ -580,14 +585,16 @@ input[type=email] {
     height: auto;
 }
 
-/*Quiz Page*/
-
 .quiz {
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
+}
+
+.quiz h2 {
+    padding-top: 20px;
 }
 }
 
