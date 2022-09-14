@@ -119,9 +119,6 @@ Each page within the site has a consistent and responsive navigation system. The
 - The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
 - The **Navigation Bar** is positioned directly below the header.
 - The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens in a new tab to relavent social media page. Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
-- The **Header** is across the top of the page. It is not static as this would cover too much of the screen.
-- The **Navigation Bar** is positioned directly below the header.
-- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab.
 - The **Sign Up Form** is to provide a way for users to contact the develper and they can be informed of quiz updates.
 
 ### Existing Features
