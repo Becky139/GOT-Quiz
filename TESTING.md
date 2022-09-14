@@ -104,20 +104,20 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Quiz Page
 
-     ![Quiz Page HTML Validation Results](assets/testing-files/validate/validate-d-day.png)
+     ![Quiz Page HTML Validation Results](assets/testing-files/validate/validate-quiz.png)
 
 - Sign Up Page
 
-     ![Sign Up Page HTML Validation Results](assets/testing-files/validate/validate-mincemeat.png)
+     ![Sign Up Page HTML Validation Results](assets/testing-files/validate/validate-sign-up.png)
 
 
 - Sign Up Dump Page
 
-     ![Sign Up Dump Page HTML Validation Results](assets/testing-files/validate/validate-contact-dump.png)
+     ![Sign Up Dump Page HTML Validation Results](assets/testing-files/validate/validate-sign-up-dump.png)
 
 - CSS Code
 
-     ![CSS Code Page HTML Validation Results](assets/testing-files/validate/validate-css-code.png)
+     ![CSS Code Page HTML Validation Results](assets/testing-files/validate/validate-css.png)
 
 ### Accessibility Validation
 
