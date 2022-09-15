@@ -23,7 +23,10 @@ body {
 	text-align: center;
 	text-transform: uppercase;
 	padding: 20px;
+    width: 100%;
     background: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
 }
 
 #nav-bar-content li {
@@ -49,6 +52,8 @@ body {
 
 footer {
     background: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-color: #000000;
     color: white;
     font-weight: bold;
     padding-bottom: 0px;
@@ -79,6 +84,7 @@ a:visited {
 .social-networks>li {
 	display: inline;
     background-color: #000000;
+    padding: 10px;
 }
 
 .social-networks p {
@@ -178,7 +184,6 @@ h2 {
     background-color: #ffffff;
     margin:40px auto;
     padding: 30px;
-    border-radius: 10px;
     animation: fadeInRight 1s ease;
 }
 @keyframes fadeInRight {
@@ -253,7 +258,7 @@ h2 {
   button:hover {
     border: none;
     transform: rotate(360deg);
-    background-color: #ffc107;
+    background-color: #45ff07;
   }
 
   .quiz-box .question-number,
@@ -266,7 +271,7 @@ h2 {
   }
   .quiz-box .question-number {
       font-size: 18px;
-      color: #ffc107;
+      color: #000000;
       font-weight: 600;
       border: 1px solid #cccccc;
       padding-bottom: 10px;
@@ -439,12 +444,12 @@ h2 {
 
   .form {
 	width: 40%;
+    min-width: 300px;
     height: auto;
 	padding: 40px 20px 40px 20px;
 	border-radius: 8px;
 	margin: 25px auto;
-	background: url(../images/throne.jpg);
-    background-size: cover;
+	background: url(../images/throne.jpeg);
 	text-align: center;
 }
 
@@ -488,6 +493,10 @@ input[type=email] {
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+
+.dragon {
+    display: none;
 }
 
  /*Sign Up Dump Page*/
@@ -601,10 +610,6 @@ input[type=email] {
 @media screen and (max-width: 600px) {
 
 footer {
-    font-size: 1.5em;
-}
-
-.social-networks>li {
-	display: block;
+    font-size: 1em;
 }
 }
