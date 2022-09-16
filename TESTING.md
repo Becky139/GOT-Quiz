@@ -127,25 +127,25 @@ Lighthouse was used to get accessibility of the site
 
 - Home Page
 
-      ![Home Page Accessibility Results](assets/testing-files/validate/accessibility-home.png)
+     ![Home Page Accessibility Results](assets/testing-files/accessibility/lighthouse-home.png)
 
 - Quix Page
 
-     ![Quiz Page Accessibility Results](assets/testing-files/validate/accessibility-dday.png)
+     ![Quiz Page Accessibility Results](assets/testing-files/accessibility/lighthouse-quiz.png)
 
 - Sign Up Page
 
-     ![Sign Up Page Accessibility Results](assets/testing-files/validate/accessibility-opmince.png)
+     ![Sign Up Page Accessibility Results](assets/testing-files/accessibility/lighthouse-sign-up.png)
 
 - Sign Up Dump Page
 
-     ![Sign Up Dump Page Accessibility Results](assets/testing-files/validate/accessibility-enigma.png)
+     ![Sign Up Dump Page Accessibility Results](assets/testing-files/accessibility/lighthouse-dump.png)
 
 
 ### Browser Validation
-- Chrome - [test image](assets/testing-file/validate/validate-chrome.PNG)
-- Edge - [test image](assets/testing-files/validate/validate-edge.PNG)
-- Firefox - [test image](assets/testing-files/validate/validate-firefox.PNG)
+- Chrome - [test image](assets/testing-files/validate/validate-chrome.png)
+- Edge - [test image](assets/testing-files/validate/validate-edge.png)
+- Firefox - [test image](assets/testing-files/validate/validate-firefox.png)
 
 ## User testing 
 
