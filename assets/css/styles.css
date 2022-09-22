@@ -600,6 +600,17 @@ input[type=email] {
 }
 }
 
+@media screen and (max-width: 900px) {
+    
+    .nav-bar {
+        background-size: 0,0;
+    }
+
+    footer {
+        background-size: 0,0;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
 footer {

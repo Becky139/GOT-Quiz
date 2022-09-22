@@ -6,20 +6,6 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
-let questionCounter = 0;
-let currentQuestion;
-let availableQuestions = [];
-let availableOptions = [];
-let correctAnswers = 0;
-let attempt = 0;
-
-function setAvailableQuestions() {
-    const totalQuestion = quiz.length;
-    for (let i = 0; i < totalQuestion; i++) {
-        availableQuestions.push(quiz[i]);
-    }
-}
-
 
 // starting point ####
 
@@ -35,6 +21,13 @@ function startQuiz() {
     getNewQuestion();
     //to create indicator of answers
     answersIndicator();
+}
+
+function setAvailableQuestions() {
+    const totalQuestion = quiz.length;
+    for (let i = 0; i < totalQuestion; i++) {
+        availableQuestions.push(quiz[i]);
+    }
 }
 
 window.onload = function() {
@@ -186,6 +179,13 @@ function getNewQuestion() {
 
     }
     questionCounter++
+
+    let questionCounter = 0;
+    let currentQuestion;
+    let availableQuestions = [];
+    let availableOptions = [];
+    let correctAnswers = 0;
+    let attempt = 0;
 }
 
 

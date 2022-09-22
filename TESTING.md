@@ -123,7 +123,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 Lighthouse was used to get accessibility of the site
 
-**Results:**
+**Large Screens over 1200px Results:**
 
 - Home Page
 
@@ -140,6 +140,25 @@ Lighthouse was used to get accessibility of the site
 - Sign Up Dump Page
 
      ![Sign Up Dump Page Accessibility Results](assets/testing-files/accessibility/lighthouse-dump.png)
+
+**Mobile Screens Smaller Than 1200px Results:**
+
+- Home Page
+
+     ![Home Page Accessibility Results](assets/testing-files/accessibility/lighthouse-mobile-home.png)
+
+- Quiz Page
+
+     ![Quiz Page Accessibility Results](assets/testing-files/accessibility/lighthouse-mobile-quiz.png)
+
+- Sign Up Page
+
+     ![Sign Up Page Accessibility Results](assets/testing-files/accessibility/lighthouse-mobile-signup.png)
+
+
+- Sign Up Dump Page
+
+     ![Sign Up Dump Page Accessibility Results](assets/testing-files/accessibility/lighthouse-mobile-dump.png)
 
 
 ### Browser Validation
