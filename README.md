@@ -1,6 +1,6 @@
 # GOT Quiz
 
-![mockup images]()
+![mockup images](assets/readme-files/test-images.png)
 
 [View The Live Project Here]()
 
@@ -92,7 +92,7 @@ The information above was then organized in a hierarchical tree structure, a sit
 <details>
 <summary>Site Map</summary>
 
-![Site Map](assets/readme-files/)
+![Site Map](assets/readme-files/site-map.png)
 
 </details>
 
