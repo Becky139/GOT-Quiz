@@ -23,7 +23,7 @@ function setAvailableQuestions(){
 //set question number and question and options
 function getNewQuestion() {
     //set questions number
-    questionNumber.innerHTML = 'Question ' + (questionCounter + 1) + ' of ' + 20;
+    questionNumber.innerHTML = 'Question ' + (questionCounter + 1) + ' of ' + quiz.length;
     //set question text
     //get random question
     const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
