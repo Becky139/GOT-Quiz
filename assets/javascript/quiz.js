@@ -78,4 +78,40 @@ const quiz = [{
     q: 'Who is Maester at Winterfell at the beginning of Game of Thrones?',
     options: ['Maester Cressen', 'Maester Aemon', 'Maester Luwin', 'Archmaester Ebrose'],
     answer: 2
+},{
+    q: 'Who of the following has never fought Brienne of Tarth?',
+    options: ['Jamie Lannister', 'Tormound Giantsbane', 'Sandor Clegane', 'Loras Tyrell'],
+    answer: 1
+},{
+    q: 'How many brothers did Eddard Stark have?',
+    options: ['One', 'Three', 'None', 'Two'],
+    answer: 3
+}, {
+    q: 'Tyrion Lannisters former squire, Podrick, is a member of which family?',
+    options: ['Poole', 'Pode', 'Payne', 'Dayne'],
+    answer: 2
+},{
+    q: 'When Jon first joins the Nights Watch, who is First Ranger?',
+    options: ['Joer Mormont', 'Benjen Stark', 'Alliser Thorne', 'Qhorin Halfhand'],
+    answer: 1
+},{
+    q: 'Who ruled Riverrun during the siege of the castle in season 6?',
+    options: ['Walder Frey', 'Brynden Tully', 'Lysa Arryn', 'Roose Bolton'],
+    answer: 1
+},{
+    q: 'Who killed the King-Beyond-the-Wall, Mance Rayder?',
+    options: ['Stannis Baratheon', 'Jeor Mormont', 'Melisandre', 'Jon Snow'],
+    answer: 3
+},{
+    q: 'Who freed Jaime Lannister after he was captured by Robb Stark?',
+    options: ['Brienne Of Tarth', 'Tyrion Lannister', 'Catelyn Stark', 'Tywin Lannister'],
+    answer: 1
+},{
+    q: 'Varys held which official title under both King Robert and King Joffrey?',
+    options: ['Master of Secrets', 'Grandmaester', 'Master of Whisperers', 'Master of Coin'],
+    answer: 2
+},{
+    q: 'Which of the following locations is NOT north of The Wall?',
+    options: ['Crasters Keep', 'Hardhome', 'The Wolfswood', 'The Fist of The First Men'],
+    answer: 2
 }, ]
