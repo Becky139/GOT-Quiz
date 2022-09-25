@@ -8,6 +8,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #f4dfc3;
 	color: rgb(17, 16, 16);
+    margin:0 0 100px;
 }
 
 * {
@@ -15,6 +16,13 @@ body {
 	margin: 0;
 	border: none;
 }
+
+html{
+	position: relative;
+	min-height:100%;
+}
+
+
 
 /*Headers Nav Bar and Footer For all Pages*/
 
@@ -56,14 +64,17 @@ footer {
     background-color: #000000;
     color: white;
     font-weight: bold;
-    padding-bottom: 0px;
     width: 100%;
     padding: 20px;
     font-size: 2em;
-    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    position:absolute;
+	left:0;
+	bottom:0;
+	height:50px;
+	width:100%;
+	overflow:hidden;
   }
 
 .social-networks {
@@ -474,12 +485,6 @@ input[type=email] {
 	text-align: right;
 	cursor: pointer;
     padding: 20px;
-}
-
-.foot {
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
 }
 
 .dragon {
