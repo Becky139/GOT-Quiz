@@ -1,8 +1,4 @@
 const quiz = [{
-    q: 'What was Khal Drogo ?',
-    options: ['Lannister', 'Dothraki', 'Stark', 'Tyrell'],
-    answer: 1
-}, {
     q: 'Who killed the Night King ?',
     options: ['Daenarys Targaryen', 'Arya Stark', 'John Snow', 'Tyrion Lannister'],
     answer: 1
