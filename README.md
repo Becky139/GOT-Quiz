@@ -34,7 +34,7 @@
 
 ## Introduction
 
-This website is a quiz created to test your knowledge of the hit show Game Of Thrones that ran for 8 seasons from April 2001 until May 2019, set in the fictional kingdom of westeros. 
+This website is a quiz created to test your knowledge of the hit show Game Of Thrones that ran for 8 seasons from April 2001 until May 2019, set in the fictional kingdom of westeros. In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea. This quiz will test your knowledge on the world of westeros and the charaters to the max.
 
 This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute.
 
@@ -60,6 +60,7 @@ The ideal user for this website is:
 
 ### Development-Planes
 
+To create a fully operational quiz using java script based on the hit tv show game of thrones, to update and change the questions to make sure it does not become repetitive.
 
 #### Strategy
 Strategy incorporates user needs as well as product objectives. This website will focus on the following target audience, divided into three main categories:
@@ -83,7 +84,7 @@ The scope plane is about defining requirements based on the goals established on
 - Functionality Requirements:
     - The user will be able to:
         - Be able to easily navigate the site to find the quiz or information they require.
-        - Be able to contact the site to report possible issues and also give suggestions.
+        - Be able to sign up to recieve news and updates.
 
 #### Structure
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
@@ -104,7 +105,7 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 <details>
 <summary>Balsamiq Wireframes</summary>
     
-![Site Wireframes](assets/readme-files/wireframe/HomePage.png)
+![Site Wireframes](assets/readme-files/wireframe/Home-Page.png)
 ![Site Wireframes](assets/readme-files/wireframe/Quiz.png)
 ![Site Wireframes](assets/readme-files/wireframe/Sign-Up.png)
 </details>   
@@ -133,7 +134,7 @@ Each page within the site has a consistent and responsive navigation system. The
 
 ### Features to Implement in the future
 - **Helpful Links Page**
-     - **Feature** - 
+     - **Feature** - Expand the quiz and make more levels to progress too.
      - **Reason for not featuring in this release** - Not enough time to find these out before the submission date also I may not be aware of some of these events.
 
 [Back to top](#GOT-Quiz)
@@ -192,9 +193,10 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - Some of the text used in variose pages were borrowed and adapted from various sites, Listed below.
      - [Wkipedia](https://wikipedia.com/)
      - [Favicon](https://icons8.com/)
+     - [IMBD](https://www.imdb.com/)
      
 ### Media
-- Almost all the images came from [Wikipedia](https://wikipedia.com/) but also got some from [IWM](https://https://www.iwm.org.uk/) and [Google Pictures](https://photos.google.com/)
+- Almost all the images came from [IWM](https://https://www.iwm.org.uk/) and [Google Pictures](https://photos.google.com/)
 
 ### Code
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:

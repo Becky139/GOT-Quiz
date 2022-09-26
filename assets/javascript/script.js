@@ -6,6 +6,26 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
+ // starting point ####
+
+ function startQuiz() {
+    //hide home box
+    homeBox.classList.add('hide');
+    //show quiz box
+    quizBox.classList.remove('hide');
+//first we will set all questions in availableQuestions Array
+setAvailableQuestions();
+
+//second we will call getNewQuestion(); function
+getNewQuestion();
+//to create indicator of answers
+answersIndicator();
+}
+
+window.onload = function() {
+homeBox.querySelector('total-question').innerHTML = quiz.length;
+}
+
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
@@ -168,25 +188,7 @@ function next() {
         resetQuiz();
     }
 
-  // starting point ####
-
-    function startQuiz() {
-        //hide home box
-        homeBox.classList.add('hide');
-        //show quiz box
-        quizBox.classList.remove('hide');
-    //first we will set all questions in availableQuestions Array
-    setAvailableQuestions();
-
-    //second we will call getNewQuestion(); function
-    getNewQuestion();
-    //to create indicator of answers
-    answersIndicator();
-}
-
-window.onload = function() {
-    homeBox.querySelector('total-question').innerHTML = quiz.length;
-}
+ 
 
 
 
