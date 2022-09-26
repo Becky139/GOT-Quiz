@@ -62,7 +62,15 @@ Manual testing was conducted on the following elements that appear on every page
 
 - Clicking on the Navigation Bar's links will bring the user to the specified page.
 
-     ![Navigation Bar page links](assets/testing-files/nav-testing.gif)
+     ![Navigation Bar Home link](assets/testing-files/nav-home-test.gif)
+     ![Navigation Bar Quiz link](assets/testing-files/nav-quiz-test.gif)
+     ![Navigation Bar Sign Up link](assets/testing-files/nav-signup-test.gif)
+
+- Clicking on the Footer Links will open a new tab and bring the user to a specified page.
+
+     ![Footer Bar Facebook Link](assets/testing-files/footer-facebook.gif)
+     ![Footer Bar GitHub Link](assets/testing-files/footer-github.gif)
+     
     
 
 ### Sign Up Page 
@@ -70,10 +78,10 @@ Manual testing was conducted on the following elements of the [Sign Up Page](sig
 
   - When filling out the contact form, the user must complete all fields before submitting
 
-      ![Form required fields - Sign Up Page](assets/testing-files/form-name.png)
-      ![Form required fields - Sign Up Page](assets/testing-files/form-email.png)
+      ![Form required fields - Sign Up Page](assets/testing-files/form-name-test.gif)
+      ![Form required fields - Sign Up Page](assets/testing-files/form-email-test.gif)
 
-  - When submitting the form you get directed to the [Sign Up Dump Page](sign-up.html)
+  - When submitting the form you get directed to the [Sign Up Dump Page](sign-up-dump.html)
 
       ![Form Sumit Link - Sign Up Page](assets/testing-files/form-submit.gif) 
 
@@ -81,13 +89,17 @@ Manual testing was conducted on the following elements of the [Sign Up Page](sig
 
   - On Tablet size screens 1200px or less 
      
-     ![Tablet Screen - Home Page](assets/testing-files/validate/validate-tablet-screen.png)
-     ![Tablet Screen - Home Page](assets/testing-files/validate/validate-tablet-gallery.png)
+     ![Tablet Screen - Home Page](assets/testing-files/tablet-home.png)
+     ![Tablet Screen - Quiz Page](assets/testing-files/tablet-quiz.png)
+     ![Tablet Screen - Sign Up Page](assets/testing-files/tablet-signup.png)
+     ![Tablet Screen - Sign Up Dump Page](assets/testing-files/tablet-dump.png)
 
   - On mobile sixe screens 800px or smaller 
      
-     ![Mobile Screen - Home Page](assets/testing-files/validate/validate-mobile.png)
-     ![Mobile Screen - Home Page](assets/testing-files/validate/validate-mobile-gallery.png)
+     ![Mobile Screen - Home Page](assets/testing-files/mobile-home.png)
+     ![Mobile Screen - Quiz Page](assets/testing-files/mobile-quiz.png)
+     ![Mobile Screen - Sign Up Page](assets/testing-files/mobile-signup.png)
+     ![Mobile Screen - Sign Up Dump Page](assets/testing-files/mobile-dump.png)
 
 [Back to top](#GOT-Quiz-Testing)
 
