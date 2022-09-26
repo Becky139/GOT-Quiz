@@ -4,7 +4,7 @@
 
 [View live project]()
 
-[View GitHub repository]()
+[View GitHub repository](https://github.com/Becky139/GOT-Quiz)
 
 ***
 ## Table of contents
@@ -180,6 +180,9 @@ Lighthouse was used to get accessibility of the site
 
 ## User testing 
 
+- I would like to thank my family for their valued opinions and critic during the process of design and development.
+- I would like to thank my tutor Seun, for their invaluable help and guidance throughout the process.
+- Lastly, I would like to extend my deepest gratitude to the amazing people in Slack who helped me rigorously test every aspect of my site.
 
 
 [Back to top](#GOT-Quiz-Testing)

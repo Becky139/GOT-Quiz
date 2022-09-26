@@ -2,7 +2,7 @@
 
 ![mockup images](assets/readme-files/test-images.png)
 
-[View The Live Project Here]()
+[View The Live Project Here](https://github.com/Becky139/GOT-Quiz)
 
 ## Table Of Contents
 1. [Introduction](#Introduction)
@@ -207,7 +207,9 @@ The developer consulted multiple sites in order to better understand the code th
 
 ## Acknowledgements
 
-
+- I would like to thank my family for their valued opinions and critic during the process of design and development.
+- I would like to thank my tutor Seun, for their invaluable help and guidance throughout the process.
+- Lastly, I would like to extend my deepest gratitude to the amazing people in Slack who helped me rigorously test every aspect of my site.
 
 [Back to top](#GOT-Quiz)
 
