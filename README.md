@@ -140,8 +140,9 @@ Each page within the site has a consistent and responsive navigation system. The
 
 ## Issues and Bugs
 
-- **Sign Up Form Background** - Issue with the image not staying central on small screens.
-- **Header and Footer Responsivness** - A bug was detected on smaller screens that the header and footer are not filly the width of the screen.
+- **Footer Not At bottom of Page** - A bug was detected with the footer on the quiz and sign up dump page not staying at the base of the screen. It was rectified by fixing it to the bottom of the page.
+- **Header and Footer Responsivness** - A bug was detected on smaller screens that the header and footer do not fit the width of the screen. The issue was rectified by finding the div and making it responsive to smaller screens
+- **Footer on Quiz Page** - A bug was detected on the quiz page with the footer being fixed it was covering the bottem on the quix box when playing. It was rectified by changing the footer and html to display releative this means the footer stays at the bottom of the page and move down when quiz box expands.
 
 
 [Back to top](#GOT-Quiz)

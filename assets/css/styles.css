@@ -116,8 +116,7 @@ a:link {
     text-align: center;
     line-height: 2em;
     display: block;
-    padding: 40px;
-
+    padding: 40px 40px 200px 40px;
 }
 
 .quiz h2 {
