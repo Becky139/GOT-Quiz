@@ -24,7 +24,7 @@ function startQuiz() {
 
 window.onload = function () {
    homeBox.querySelector('total-question').innerHTML = quiz.length;
-}
+};
 
 let questionCounter = 0;
 let currentQuestion;
@@ -81,7 +81,7 @@ function getNewQuestion() {
       option.setAttribute('onclick', 'getResult(this)');
 
    }
-   questionCounter++
+   questionCounter++;
 }
 
 //get the result of current attempt question
