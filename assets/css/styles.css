@@ -446,6 +446,7 @@ h2 {
 	border-radius: 8px;
 	margin: 25px auto;
 	background: url(../images/throne.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/throne.jpeg);
 	text-align: center;
 }
 
