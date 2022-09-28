@@ -2,7 +2,7 @@
 
 [Main README.md file](/README.md)
 
-[View live project]()
+[View live project](https://becky139.github.io/GOT-Quiz/)
 
 [View GitHub repository](https://github.com/Becky139/GOT-Quiz)
 

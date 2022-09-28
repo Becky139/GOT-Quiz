@@ -2,7 +2,7 @@
 
 ![mockup images](assets/readme-files/test-images.png)
 
-[View The Live Project Here](https://github.com/Becky139/GOT-Quiz)
+[View The Live Project Here](https://becky139.github.io/GOT-Quiz/)
 
 ## Table Of Contents
 1. [Introduction](#Introduction)
