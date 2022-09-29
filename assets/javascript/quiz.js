@@ -78,4 +78,4 @@ const quiz = [{
     q: 'Which of the following locations is NOT north of The Wall?',
     options: ['Crasters Keep', 'Hardhome', 'The Wolfswood', 'The Fist of The First Men'],
     answer: 2
- }, ]
+ }, ];
