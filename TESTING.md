@@ -129,7 +129,12 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - CSS Code
 
-     ![CSS Code Page HTML Validation Results](assets/testing-files/validate/validate-css.png)
+     ![CSS Code Page Validation Results](assets/testing-files/validate/validate-css.png)
+
+- Java Script
+
+     ![Java Script Validation Results](assets/testing-files/validate/validate-js.JPG)
+     ![Java Script Quiz Validation Results](assets/testing-files/validate/validate-jsquiz.JPG)
 
 ### Accessibility Validation
 
