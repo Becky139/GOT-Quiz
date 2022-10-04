@@ -75,8 +75,6 @@ footer {
     position:absolute;
 	left:0;
 	bottom:0;
-	height:50px;
-	width:100%;
 	overflow:hidden;
   }
 
@@ -504,7 +502,6 @@ h2 {
 
   .form {
 	width: 40%;
-    min-width: 300px;
     height: auto;
 	padding: 40px 20px 40px 20px;
 	border-radius: 8px;
