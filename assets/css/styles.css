@@ -25,21 +25,24 @@ html{
 
 
 /*Headers Nav Bar and Footer For all Pages*/
+/*Header*/
 
 .nav-bar {
     font-size: 2em;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 20px;
     width: 100%;
     background: url(../images/header.jpg);
     background-repeat: no-repeat;
     background-color: #000000;
 }
 
+/*Header Page Links*/
+
 #nav-bar-content li {
 	display: inline-block;
 	border-radius: 10px;
+    padding: 20px;
 	margin: 8px 1vw;
 }
 
@@ -58,13 +61,14 @@ html{
 	border-bottom: 5px solid white;
 }
 
+/*Footer*/
+
 footer {
     background-repeat: no-repeat;
     background-color: #000000;
     color: white;
     font-weight: bold;
     width: 100%;
-    padding: 20px;
     font-size: 2em;
     justify-content: center;
     align-items: center;
@@ -76,8 +80,11 @@ footer {
 	overflow:hidden;
   }
 
+ /*Footer Social Media Links*/
+
 .social-networks {
 	clear: both;
+    padding: 20px;
 	text-align: center;
 }
 
@@ -200,6 +207,7 @@ h2 {
     display: table;
 }
 
+/*Quiz Start box*/
 
 .home-box h3 {
     font-size: 18px;
@@ -225,6 +233,8 @@ h2 {
     font-weight: 500;
 }
 
+/*Quiz Button*/
+
 .btn {
     width: 150px;
     height: 50px;
@@ -240,7 +250,6 @@ h2 {
   }
   
   span {
-    /* background: #ffc107; */
     height: 100%;
     width: 0;
     z-index: -1;
@@ -251,11 +260,38 @@ h2 {
     width: 100%;
   }
   
-  button:hover {
+  .btn:hover {
     border: none;
     transform: rotate(360deg);
     background-color: #38cb06;
   }
+
+  .btn-skip {
+    width: 150px;
+    height: 50px;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #605d5d;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+  }
+  
+  .btn-skip:hover span {
+    width: 100%;
+  }
+
+  .btn-skip:hover {
+    border: none;
+    transform: rotate(360deg);
+    background-color: #e99488;
+  }
+  
+
+  /*Quiz Question Box*/
 
   .quiz-box .question-number,
   .quiz-box .question-text,
@@ -282,6 +318,8 @@ h2 {
       margin: 0;
   }
   
+  /*Quiz Answers*/
+
   .quiz-box .option-container .option{ 
       background-color: #cccccc;
       padding: 15px;
@@ -301,6 +339,8 @@ h2 {
   .quiz-box .option-container .option.already-answered {
       pointer-events: none;
   }
+
+  /*Quiz Animation*/
 
   @keyframes fadeIn {
       0% {
@@ -355,6 +395,7 @@ h2 {
   .quiz-box .btn {
       margin: 15px 0;
   }
+/*Answer Indicator*/
 
   .quiz-box .answers-indicator {
       border-top: 1px solid #cccccc;
@@ -386,6 +427,8 @@ h2 {
     background-position: center;
   }
 
+  /*Result Box*/
+
   .result-box {
       text-align: center;
   }
@@ -413,14 +456,11 @@ h2 {
       margin-right: 20px;
   }
 
+/*Hide When Not needed*/
 
   .hide-instructions{
       display: none;
   }
-
-  /* .hide-questions{
-      display: none;
-  } */
 
   .hide-result{
       display: none;
@@ -438,6 +478,8 @@ h2 {
     padding: 20px;
   }
 
+/*Sign Up Form*/
+
   .form {
 	width: 40%;
     min-width: 300px;
@@ -449,6 +491,8 @@ h2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/throne.jpeg);
 	text-align: center;
 }
+
+/*Form Button and Inputs*/
 
 input[type=submit] {
 	margin: 20px auto;
@@ -484,10 +528,6 @@ input[type=email] {
 	text-align: right;
 	cursor: pointer;
     padding: 20px;
-}
-
-.dragon {
-    display: none;
 }
 
  /*Sign Up Dump Page*/
@@ -618,6 +658,10 @@ input[type=email] {
 @media screen and (max-width: 600px) {
 
 footer {
-    font-size: 1em;
+    font-size: 0.75em;
+    }
+
+.nav-bar {
+    font-size: 1.1em;
 }
 }
