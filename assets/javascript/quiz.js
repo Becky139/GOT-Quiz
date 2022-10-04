@@ -69,7 +69,7 @@ const quiz = [{
  }, {
     q: 'Who freed Jaime Lannister after he was captured by Robb Stark?',
     options: ['Brienne Of Tarth', 'Tyrion Lannister', 'Catelyn Stark', 'Tywin Lannister'],
-    answer: 1
+    answer: 2
  }, {
     q: 'Varys held which official title under both King Robert and King Joffrey?',
     options: ['Master of Secrets', 'Grandmaester', 'Master of Whisperers', 'Master of Coin'],
