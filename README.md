@@ -126,6 +126,7 @@ Each page within the site has a consistent and responsive navigation system. The
 - **Header** - Appearing on almost every page for brand recognition.
 - **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable.
 - **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms.
+- **Back To Top Scroll** - Apearing on the Intro page and the Quiz when on smaller screens it allows the user to get back to the top of the page with one click.
 - **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
 - **[Intro Page](index.html)** - Provides a summary of the TV series game of Thrones and a little quiz introdution.
 - **[Quiz Page](quiz.html)** - This page has the Quiz game on it and provides the user with a score at the end.
@@ -134,17 +135,22 @@ Each page within the site has a consistent and responsive navigation system. The
 
 ### Features to Implement in the future
 - **Helpful Links Page**
-     - **Feature** - Expand the quiz and make more levels to progress too.
+     - **Feature** 
+     - Expand the quiz and make more levels to progress too.
+     - Add java script to get the contact form to send an email.
      - **Reason for not featuring in this release** - Not enough time to find these out before the submission date also I may not be aware of some of these events.
 
 [Back to top](#GOT-Quiz)
 
-## Issues and Bugs
+## Issues and Bugs - Fixed
 
 - **Footer Not At bottom of Page** - A bug was detected with the footer on the quiz and sign up dump page not staying at the base of the screen. It was rectified by fixing it to the bottom of the page.
 - **Header and Footer Responsivness** - A bug was detected on smaller screens that the header and footer do not fit the width of the screen. The issue was rectified by finding the div and making it responsive to smaller screens
 - **Footer on Quiz Page** - A bug was detected on the quiz page with the footer being fixed it was covering the bottem on the quix box when playing. It was rectified by changing the footer and html to display releative this means the footer stays at the bottom of the page and move down when quiz box expands.
 
+## Issues and Bugs - Not Fixed
+
+- **Contact Form Sending Emails** - I put in place using emailjs and java script a way for the contact form to send an email when doing this i had some issues with the form not loading also auto response was not working. If i had some more time i would have fixed this and implenmented this, for now i have removed this so the contact form works.
 
 [Back to top](#GOT-Quiz)
 
@@ -190,7 +196,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 ## Credits
 
 ### Content
-- Some of the text used in variose pages were borrowed and adapted from various sites, Listed below.
+- Some of the text used in various pages were borrowed and adapted from various sites, Listed below.
      - [Wkipedia](https://wikipedia.com/)
      - [Favicon](https://icons8.com/)
      - [IMBD](https://www.imdb.com/)
