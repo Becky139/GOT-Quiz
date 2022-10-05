@@ -7,6 +7,15 @@
         <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="icon" href="assets/images/favicon.png">
         <title>Sign Up Page</title>
+        
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('ObzQXm2YPjuCoO_1U');
+            })();
+        </script>
     </head>
     <body>
         <!--Nav bar with page links-->
@@ -31,12 +40,12 @@
         </div>
         <div>
             <!--Contact Form-->
-            <form class="form" action="sign-up-dump.html">
+            <form class="form" id="contact-form" action="sign-up-dump.html">
                 <label for="name-field" class="block-label">Name</label>
-                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+                <input id="name-field" type="text" id="user_name" name="full_name" placeholder="Your name" required>
                 <label for="email-field" class="block-label">Email</label>
-                <input id="email-field" type="email" name="email" placeholder="Your email" required>
-                <input type="submit" class="button" value="Submit">
+                <input id="email-field" type="email" id="user_email" name="email" placeholder="Your email" required>
+                <button type="submit" class="block-label" onclick="SendMail()">Submit</button>
             </form>
         </div>
 
@@ -62,5 +71,8 @@
                 <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
             </footer>
         </div>
+        <script src="assets/javascript/script.js"></script>
+        <script src="assets/javascript/quiz.js"></script>
+        <script src="assets/javascript/email.js" ></script>
     </body>
 </html>
