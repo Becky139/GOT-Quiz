@@ -29,12 +29,11 @@
     3. [Code](#Code)
 9. [Acknowledgements](#Acknowledgements)
 
-
 ***
 
 ## Introduction
 
-This website is a quiz created to test your knowledge of the hit show Game Of Thrones that ran for 8 seasons from April 2001 until May 2019, set in the fictional kingdom of westeros. In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea. This quiz will test your knowledge on the world of westeros and the charaters to the max.
+This website is a quiz created to test your knowledge of the hit show Game Of Thrones that ran for 8 seasons from April 2001 until May 2019, set in the fictional kingdom of Westeros. In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all. Meanwhile, the last heirs of a recently usurped dynasty plot to take back their homeland from across the Narrow Sea. This quiz will test your knowledge on the world of Westeros and the charaters to the max.
 
 This website was made for the first of five Milestone projects required to complete the Diploma in Software development (eCommerce Applications) program at The Code Institute.
 
@@ -56,7 +55,7 @@ The ideal user for this website is:
 1. As a new user, I want to easily navigate the entire site intuitively. 
 2. As a new user, I want the information I seek to be easily accessible and relevant.
 3. As a new user, I want attractive and relevant visuals and colour schemes that work with the content.
-4. As a new user, I want to get access to a site that has good accuate questions with correct answers.
+4. As a new user, I want to get access to a site that has good accurate questions with correct answers.
 
 ### Development-Planes
 
@@ -73,22 +72,20 @@ Strategy incorporates user needs as well as product objectives. This website wil
     - All ages
     - Worldwide
 
-
 #### Scope
 The scope plane is about defining requirements based on the goals established on the strategy plane. Using the information in the strategy plane, the identified required features have been broken into the following two categories.
 - Content Requirements:
     - The user will be looking for:
-        - Accuate questions with correct answers
+        - Accurate questions with correct answers
         - Images from the series
         - Regular quiz updates 
 - Functionality Requirements:
     - The user will be able to:
         - Be able to easily navigate the site to find the quiz or information they require.
-        - Be able to sign up to recieve news and updates.
+        - Be able to sign up to receive news and updates.
 
 #### Structure
 The information above was then organized in a hierarchical tree structure, a site map, showing how users can navigate through the site with ease and efficiency, with the following results:
-
 
 <details>
 <summary>Site Map</summary>
@@ -97,10 +94,8 @@ The information above was then organized in a hierarchical tree structure, a sit
 
 </details>
 
-
 #### Skeleton
 Wireframes were made to showcase the appearance of the site pages while keeping a positive user experience in mind. The wireframes were created using a desktop version of [Balsamiq](https://balsamiq.com/).
-
 
 <details>
 <summary>Balsamiq Wireframes</summary>
@@ -110,7 +105,6 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 ![Site Wireframes](assets/readme-files/wireframe/Sign-Up.png)
 </details>   
 
-
 [Back to top](#GOT-Quiz)
 
 ## Features
@@ -119,19 +113,19 @@ Wireframes were made to showcase the appearance of the site pages while keeping 
 Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
 - The **Header** is across the top of the page. It is not static as this would cover too much of the screen. A back-to-top button was implemented instead so users can access the navigation bar quickly.
 - The **Navigation Bar** is positioned directly below the header.
-- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens in a new tab to relavent social media page. Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
-- The **Sign Up Form** is to provide a way for users to contact the develper and they can be informed of quiz updates.
+- The **Footer** is 100% in width and 40px in height. It stays at the bottom of the screen at all times, on all screen sizes. Each social media link opens in a new tab. Additionally, each social media link opens in a new tab to relevant social media page. Each page within the site has a consistent and responsive navigation system. The details of features on the site are detailed below.
+- The **Sign Up Form** is to provide a way for users to contact the developer and they can be informed of quiz updates.
 
 ### Existing Features
 - **Header** - Appearing on almost every page for brand recognition.
 - **Navigation Bar** - Appearing on almost every page for a consistently easy and intuitive navigable.
 - **Social Media Icons** - Appearing on almost every page, the icons are appropriate representations of the Social Media platforms.
-- **Back To Top Scroll** - Apearing on the Intro page and the Quiz when on smaller screens it allows the user to get back to the top of the page with one click.
+- **Back To Top Scroll** - Appearing on the Intro page and the Quiz when on smaller screens it allows the user to get back to the top of the page with one click.
 - **Contact Form** - A contact form is used in the Contact Page, to provide a point of contact for the user.
-- **[Intro Page](index.html)** - Provides a summary of the TV series game of Thrones and a little quiz introdution.
+- **[Intro Page](index.html)** - Provides a summary of the TV series game of Thrones and a little quiz introduction.
 - **[Quiz Page](quiz.html)** - This page has the Quiz game on it and provides the user with a score at the end.
 - **[Sign Up Page](sign-up.html)** - This page provide the user with a place to sign up to get information on when the quiz is updated.
-- **[Sin Up Dump Page](sign-up-dump.html)** - This page is were the user is taken after submiting the form in the sign up page.   
+- **[Sin Up Dump Page](sign-up-dump.html)** - This page is were the user is taken after submitting the form in the sign up page.   
 
 ### Features to Implement in the future
 - **Helpful Links Page**
@@ -145,18 +139,18 @@ Each page within the site has a consistent and responsive navigation system. The
 ## Issues and Bugs - Fixed
 
 - **Footer Not At bottom of Page** - A bug was detected with the footer on the quiz and sign up dump page not staying at the base of the screen. It was rectified by fixing it to the bottom of the page.
-- **Header and Footer Responsivness** - A bug was detected on smaller screens that the header and footer do not fit the width of the screen. The issue was rectified by finding the div and making it responsive to smaller screens
-- **Footer on Quiz Page** - A bug was detected on the quiz page with the footer being fixed it was covering the bottem on the quix box when playing. It was rectified by changing the footer and html to display releative this means the footer stays at the bottom of the page and move down when quiz box expands.
+- **Header and Footer Responsiveness** - A bug was detected on smaller screens that the header and footer do not fit the width of the screen. The issue was rectified by finding the div and making it responsive to smaller screens
+- **Footer on Quiz Page** - A bug was detected on the quiz page with the footer being fixed it was covering the bottom on the quix box when playing. It was rectified by changing the footer and html to display relative this means the footer stays at the bottom of the page and move down when quiz box expands.
 
 ## Issues and Bugs - Not Fixed
 
-- **Contact Form Sending Emails** - I put in place using emailjs and java script a way for the contact form to send an email when doing this i had some issues with the form not loading also auto response was not working. If i had some more time i would have fixed this and implenmented this, for now i have removed this so the contact form works.
+- **Contact Form Sending Emails** - I put in place using emails and java script a way for the contact form to send an email when doing this i had some issues with the form not loading also auto response was not working. If I had some more time i would have fixed this and implemented this, for now i have removed this so the contact form works.
 
 [Back to top](#GOT-Quiz)
 
 ## Technologies Used
 
-### Main Lanuages Used
+### Main Languages Used
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
@@ -169,12 +163,11 @@ Each page within the site has a consistent and responsive navigation system. The
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
      - Font Awesome was used on almost all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
 - [GitPod](https://gitpod.io/ "Link to GitPod homepage")
-     - GitPod was used for writing code, commiting, and then pushing to GitHub.
+     - GitPod was used for writing code, committing, and then pushing to GitHub.
 - [GitHub](https://github.com/ "Link to GitHub")
      - GitHub was used to store the project after pushing
 - [Balsamiq](https://balsamiq.com/ "Link to Balsamiq homepage")
      - Balsamiq was used to create the wireframes during the design phase of the project.
-
 
 [Back to top](#GOT-Quiz)
 
@@ -197,7 +190,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 
 ### Content
 - Some of the text used in various pages were borrowed and adapted from various sites, Listed below.
-     - [Wkipedia](https://wikipedia.com/)
+     - [Wikipedia](https://wikipedia.com/)
      - [Favicon](https://icons8.com/)
      - [IMBD](https://www.imdb.com/)
      
@@ -221,4 +214,3 @@ The developer consulted multiple sites in order to better understand the code th
 
 [Back to top](#GOT-Quiz)
 
-***
